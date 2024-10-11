@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <title>My Portfolio</title>
+    <style>
+        /* Modal styles */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0, 0, 0); /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+        }
+
+        .modal-content {
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 700px;
+        }
+
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #ffffff;
+            font-size: 40px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #bbb;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Gurleen Kaur</h1>
+            </div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Your one-stop destination for innovative design projects.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Photography</h3>
+                <p>Project 1 involved capturing the theme "White on White and Black on Black," where I showcased contrasts and textures. I experimented with various compositions and lighting, resulting in a stunning collection that highlights simplicity and elegance.</p>
+    
+    <p>In Project 2, I created reflections using foil paper, capturing a girl in a striking red sweater. This project emphasized the interplay of light and color, resulting in a visually captivating image.</p>
+    
+    <p>Project 3 focused on macro photography, where I took close-up shots of various subjects. I also explored natural lighting in Project 4, photographing a boy with a guitar illuminated by sunlight, which added warmth and authenticity to the image.</p>
+    
+    <p>In Project 5, I focused on outdoor photography, selecting brands to explore their color contrasts and reflections. This project led to compelling images that showcased the beauty of the outdoors.</p>
+    
+    <p>Additionally, I took macro photographs of brands using a golden Technics radio, emphasizing the details and craftsmanship of each item. This exploration of color and texture resulted in a dynamic collection of images.</p>
+                <a href="Image/1.jpg" class="image-popup"><img src="Image/1.jpg" alt="Project 1"></a>
+                <a href="Image/2.jpg" class="image-popup"><img src="Image/2.jpg" alt="Project 1"></a>
+                <a href="Image/3.jpg" class="image-popup"><img src="Image/3.jpg" alt="Project 1"></a>
+                <a href="Image/4.jpg" class="image-popup"><img src="Image/4.jpg" alt="Project 1"></a>
+                <a href="Image/5.jpg" class="image-popup"><img src="Image/5.jpg" alt="Project 1"></a>
+                <a href="Image/6.jpg" class="image-popup"><img src="Image/6.jpg" alt="Project 1"></a>
+                <a href="Image/7.jpg" class="image-popup"><img src="Image/7.jpg" alt="Project 1"></a>
+                <a href="Image/8.jpg" class="image-popup"><img src="Image/8.jpg" alt="Project 1"></a>
+                <a href="Image/9.jpg" class="image-popup"><img src="Image/9.jpg" alt="Project 1"></a>
+                <a href="Image/10.jpg" class="image-popup"><img src="Image/10.jpg" alt="Project 1"></a>
+                <a href="Image/11.jpg" class="image-popup"><img src="Image/11.jpg" alt="Project 1"></a>
+                <a href="Image/12.jpg" class="image-popup"><img src="Image/12.jpg" alt="Project 1"></a>
+                
+            </div>
+
+            
+
+            <div id="Magazine" class="project-card">
+                <h3>In-Design</h3>
+                <p>For this project, I created a magazine titled "Get Experience," focusing on providing readers with insights into practical skills and personal development. The design process involved careful layout planning to ensure an engaging reading experience.</p>
+                <p>I experimented with various grid systems to create a visually appealing structure, allowing for balanced text and imagery. I learned how to effectively integrate images to complement the written content, ensuring that each photo aligned with the article's message.</p>
+                <p>Additionally, I focused on the importance of white space and typography, selecting fonts that enhance readability while maintaining the magazine's aesthetic. This project taught me valuable lessons in visual hierarchy and the interplay between images and text.</p>
+                <a href="Image/13.jpg" class="image-popup"><img src="Image/13.jpg" alt="Project 1"></a>
+                <a href="Image/14.jpg" class="image-popup"><img src="Image/14.jpg" alt="Project 1"></a>
+                <a href="Image/15.jpg" class="image-popup"><img src="Image/15.jpg" alt="Project 1"></a>
+                <a href="Image/16.jpg" class="image-popup"><img src="Image/16.jpg" alt="Project 1"></a>
+                <a href="Image/17.jpg" class="image-popup"><img src="Image/17.jpg" alt="Project 1"></a>
+                <a href="Image/18.jpg" class="image-popup"><img src="Image/18.jpg" alt="Project 1"></a>
+                
+            </div>
+
+            <div class="project-card">
+                <h3>Web Design</h3>
+                <p>In my first web design project, I focused on creating a personal website, paying close attention to the layout and sections, including the navigation bar, main section, sidebar, and footer. This experience taught me the importance of organizing content in a way that enhances user experience.</p>
+                <p>For the second website, I aimed to create a visually striking hero section, which is a popular trend in modern web design. I explored how a well-designed hero section can effectively grab users' attention and convey essential information at a glance.</p>
+                <p>Additionally, I created a Nike advertisement inspired by a card layout I encountered. I aimed to replicate this design as closely as possible, focusing on alignment, color schemes, and typography to maintain brand consistency.</p>
+                <p>Finally, the last two images were projects I worked on using HTML and CSS purely for fun and creativity. These projects allowed me to experiment with imaginative designs and play with different coding techniques, further enhancing my skills in web development.</p>
+                
+                <a href="Image/19.jpg" class="image-popup"><img src="Image/19.jpg" alt="Project 1"></a>
+                <a href="Image/20.png" class="image-popup"><img src="Image/20.png" alt="Project 1"></a>
+                <a href="Image/21.png" class="image-popup"><img src="Image/21.png" alt="Project 1"></a>
+                <a href="Image/22.png" class="image-popup"><img src="Image/22.png" alt="Project 1"></a>
+                <a href="Image/23.png" class="image-popup"><img src="Image/23.png" alt="Project 1"></a>
+                <a href="Image/24.png" class="image-popup"><img src="Image/24.png" alt="Project 1"></a>
+                </div>
+
+
+                <div class="project-card">
+                    <h3>Photoshop & Illustrator</h3>
+                    <p>In my first project, I created advertisements for Aldo and Disney, inspired by their collaboration. I focused on presenting their products against a black background, enhancing the diamond-like shine and making the products stand out more prominently.</p>
+                    <p>My second project utilized the golden ratio technique, exploring how circles can be used to create visually appealing images and structures. This method helped me understand balance and proportion in design.</p>
+                    <p>Next, I worked on a camouflage-inspired project where I took a side profile photograph and traced the facial features using learned techniques, creating a unique blend of art and realism.</p>
+                    <p>Additionally, I experimented with digital painting, incorporating a golden effect that added depth and richness to the artwork.</p>
+                    <p>Finally, I designed a pattern inspired by the image of a glass, incorporating intricate patterns that evoke a sense of elegance and creativity.</p>
+                    
+                    <a href="Image/25.jpg" class="image-popup"><img src="Image/25.jpg" alt="Project 1"></a>
+                    <a href="Image/26.jpg" class="image-popup"><img src="Image/26.jpg" alt="Project 1"></a>
+                    <a href="Image/27.png" class="image-popup"><img src="Image/27.png" alt="Project 1"></a>
+                    <a href="Image/28.jpeg" class="image-popup"><img src="Image/28.jpeg" alt="Project 1"></a>
+                    <a href="Image/29.jpg" class="image-popup"><img src="Image/29.jpg" alt="Project 1"></a>
+                    <a href="Image/30.jpg" class="image-popup"><img src="Image/30.jpg" alt="Project 1"></a>
+                </div>
+
+
+                <div class="project-card">
+                    <h3>Audio & Animation</h3>
+                    <p>In my first audio project, I created a narrative about a girl planning a fun beach party with her friends. The challenge was to convey the story using only sound effects, without any spoken words, allowing the listeners to imagine the scene and feel the excitement.</p>
+    <p>The second project was an interactive game soundscape, where I designed audio elements that reflect the various actions and events that occur while playing an online game. This project aimed to enhance the immersive experience through sound.</p>
+    <p>For my third video project, I focused on the theme of beauty. I was inspired to gather information on this topic and created an engaging audio-visual piece that captures the essence of beauty in different forms.</p>
+    <p>Finally, my fourth project was an advertisement for a Nike shoe. I utilized animation techniques to create a dynamic audio-visual presentation that highlights the product's features and appeal.</p>
+                    
+                    <h4>Audio Files:</h4>
+                    <audio controls>
+                        <source src="Image/Story_Beach_with_friend_Audio.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <audio controls>
+                        <source src="Image/Interactive media game.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <h4>Video Files:</h4>
+                    <video controls width="400">
+                        <source src="Image/Brand Intro - Made with Clipchamp.mp4" type="video/mp4">
+                        Your browser does not support the video element.
+                    </video>
+                    <video controls width="500">
+                        <source src="Image/Nike Advertising.mp4" type="video/mp4">
+                        Your browser does not support the video element.
+                    </video>
+                </div>
+
+                
+        </div>
+
+
+
+    </section> 
+
+</body>
+
+</html>
